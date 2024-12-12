@@ -27,8 +27,10 @@ class AuthProvider with ChangeNotifier {
       log('Started login');
       final GoogleSignInAccount? googleSignInAccount =
           await _googleSignIn.signIn();
+
       final GoogleSignInAuthentication? googleSignInAuthentication =
           await googleSignInAccount?.authentication;
+      log('Started login 2');
 
       final AuthCredential credential = GoogleAuthProvider.credential(
         idToken: googleSignInAuthentication?.idToken,
@@ -62,6 +64,8 @@ class AuthProvider with ChangeNotifier {
         notifyListeners();
       }
     } catch (e) {
+      log('Started login jsdnai $e');
+
       print("Error during Google Sign-In: $e");
     } finally {
       _setLoading(false);

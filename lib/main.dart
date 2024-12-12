@@ -5,6 +5,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:lp_task/firebase_options.dart';
 import 'package:lp_task/providers/auth_provider.dart';
 import 'package:lp_task/screens/splash/splash_screen.dart';
 import 'package:provider/provider.dart';
@@ -17,12 +18,12 @@ final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   await Alarm.init();
 
   tz.initializeTimeZones();
   var initializationSettingsAndroid =
-      const AndroidInitializationSettings('assets/image/logo/app_logo.png');
+      const AndroidInitializationSettings('app_logo');
 
   var initializationSettingsIOS = const DarwinInitializationSettings(
     requestAlertPermission: true,
