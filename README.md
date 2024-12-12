@@ -27,7 +27,7 @@ This Flutter-based alarm application allows users to set and manage alarms with 
 
 4. Run the application:
 
-```flutter pub get```
+```flutter run```
 
 ## DEMO OF THE PROJECT
 
