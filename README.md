@@ -2,6 +2,9 @@
 
 This Flutter-based alarm application allows users to set and manage alarms with advanced features such as repeating alarms, labels, and more. It uses SQLite for local data storage and integrates Google Sign-In for authentication. 
 
+### [Backend_Integration_Proposal](https://drive.google.com/file/d/1_RFRymzxQBOxG44B_Av3W3otGhlnJu-o/view?usp=sharing)
+
+
 ## Getting Started
 
 ### Installation
