@@ -2,7 +2,6 @@ import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lp_task/global/constants/theme.dart';
-import 'package:lp_task/services/stop_alarm.dart';
 
 import '../../services/alarm_service.dart';
 import 'bottom_modal_alarm.dart';

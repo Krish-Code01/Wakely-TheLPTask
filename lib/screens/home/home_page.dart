@@ -9,7 +9,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../global/constants/theme.dart';
 import '../../providers/alarm_provider.dart';
-import '../../providers/auth_provider.dart';
 import '../../services/alarm_service.dart';
 import '../active_alarm/active_alarm.dart';
 import '../components/alarm_card.dart';
@@ -76,7 +75,6 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    AuthProvider authProvider = Provider.of<AuthProvider>(context);
     AlarmProvider alarmProvider =
         Provider.of<AlarmProvider>(context, listen: false);
     DateTime? nextAlarmTime =

@@ -1,6 +1,9 @@
+import 'dart:async';
+
 import 'package:alarm/alarm.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:intl/intl.dart';
 import 'package:lp_task/model/alarm_model.dart';
 import 'package:lp_task/providers/alarm_provider.dart';
 import 'package:lp_task/services/stop_alarm.dart';
@@ -18,6 +21,25 @@ class ActiveAlarmPage extends StatefulWidget {
 }
 
 class _AlarmNotificationScreenState extends State<ActiveAlarmPage> {
+  late Timer _timer;
+  late DateTime _currentTime;
+  @override
+  void initState() {
+    super.initState();
+    _currentTime = DateTime.now();
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      _startTimer();
+    });
+  }
+
+  void _startTimer() {
+    _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      setState(() {
+        _currentTime = DateTime.now();
+      });
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     AlarmProvider _alarmProvider = Provider.of<AlarmProvider>(context);
@@ -47,6 +69,26 @@ class _AlarmNotificationScreenState extends State<ActiveAlarmPage> {
                 style: TextStyle(
                   fontSize: 20.sp,
                   fontWeight: FontWeight.w500,
+                  color: Colors.black,
+                ),
+              ),
+            ],
+          ),
+          Column(
+            children: [
+              Text(
+                "${DateFormat('HH:mm').format(DateTime.now())}",
+                style: TextStyle(
+                  fontSize: 32.sp,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+              ),
+              Text(
+                "${DateFormat('EEE').format(DateTime.now())}, ${DateFormat('dd MMM').format(DateTime.now())}",
+                style: TextStyle(
+                  fontSize: 28.sp,
+                  fontWeight: FontWeight.bold,
                   color: Colors.black,
                 ),
               ),

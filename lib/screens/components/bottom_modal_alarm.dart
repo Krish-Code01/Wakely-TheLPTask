@@ -1,4 +1,3 @@
-import 'dart:developer';
 import 'dart:io';
 
 import 'package:alarm/alarm.dart';
@@ -8,10 +7,8 @@ import 'package:lp_task/global/constants/theme.dart';
 import 'package:lp_task/model/alarm_model.dart';
 import 'package:lp_task/providers/alarm_provider.dart';
 import 'package:lp_task/services/alarm_service.dart';
-import 'package:lp_task/services/stop_alarm.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:uuid/uuid.dart';
 
 void showAlarmModalSheet(BuildContext context, AlarmService alarm) {
   String selectedLabel = '';
@@ -52,6 +49,9 @@ void showAlarmModalSheet(BuildContext context, AlarmService alarm) {
                       fontSize: 24.sp,
                       fontWeight: FontWeight.bold,
                       color: CustomColors.primaryTextColor,
+                      decoration: TextDecoration.underline,
+                      decorationColor: CustomColors.primaryTextColor,
+                      decorationStyle: TextDecorationStyle.double,
                     ),
                   ),
                 ),
@@ -215,7 +215,9 @@ void showAlarmModalSheet(BuildContext context, AlarmService alarm) {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     GestureDetector(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.of(context).pop();
+                      },
                       child: Text(
                         "Cancel",
                         style: TextStyle(
@@ -261,6 +263,15 @@ void showAlarmModalSheet(BuildContext context, AlarmService alarm) {
                                   break;
                                 }
                               }
+                              if (selectedDateTime.isBefore(now)) {
+                                _remainingDays += 1;
+                              }
+                              selectedDateTime = selectedDateTime.add(
+                                Duration(
+                                  days: _remainingDays,
+                                ),
+                              );
+                            } else {
                               if (selectedDateTime.isBefore(now)) {
                                 _remainingDays += 1;
                               }

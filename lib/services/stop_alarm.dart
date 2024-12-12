@@ -1,13 +1,8 @@
 import 'dart:io';
 
 import 'package:alarm/alarm.dart';
-import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:lp_task/model/alarm_model.dart';
 import 'package:lp_task/providers/alarm_provider.dart';
-import 'package:lp_task/services/alarm_service.dart';
-import 'package:timezone/standalone.dart';
-
-import '../main.dart';
 
 class StartStopAlarm {
   static Future<void> stopAlarm(AlarmModel alarm, AlarmSettings alarmSettings,
