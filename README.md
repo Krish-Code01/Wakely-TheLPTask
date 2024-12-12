@@ -8,7 +8,7 @@ This Flutter-based alarm application allows users to set and manage alarms with 
 
 #### Prerequisites
 
-1.Install Flutter.
+1.Install Flutter.<br>
 2. Set up an emulator or connect a physical device for testing.
 
 ### Steps
