@@ -1,0 +1,21 @@
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-1.0.0-beta04-0 /Users/krishnarajput/.gradle/caches/transforms-3/0de068733846f1b04c38605e9acbc120/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-browser-1.4.0-1 /Users/krishnarajput/.gradle/caches/transforms-3/0f346bcd8eba588279b4b4389d18e85e/transformed/browser-1.4.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-core-1.6.0-2 /Users/krishnarajput/.gradle/caches/transforms-3/1861d27e20c3c9a424ed1bc7625c6fd0/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-annotation-experimental-1.1.0-3 /Users/krishnarajput/.gradle/caches/transforms-3/23a9b25dca926dcda76eb263aee75c9f/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-firebase-common-21.0.0-4 /Users/krishnarajput/.gradle/caches/transforms-3/27c3455396742c3b0a4dc7c88c4236c7/transformed/jetified-firebase-common-21.0.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-basement-18.4.0-5 /Users/krishnarajput/.gradle/caches/transforms-3/45af739454d691d15eec3c181545bf7e/transformed/jetified-play-services-basement-18.4.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-credentials-play-services-auth-1.2.0-rc01-6 /Users/krishnarajput/.gradle/caches/transforms-3/5bf7ea7d1ddaef49aea09b308fafb590/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-base-18.0.1-7 /Users/krishnarajput/.gradle/caches/transforms-3/7acb2fba996ab52674706a8b7be5c87d/transformed/jetified-play-services-base-18.0.1/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-core-common-2.0.3-8 /Users/krishnarajput/.gradle/caches/transforms-3/8b9d8c70348ae3229d8aa1102c16cf79/transformed/jetified-core-common-2.0.3/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-credentials-1.2.0-rc01-9 /Users/krishnarajput/.gradle/caches/transforms-3/b5af6545e84b267419eed85c6c173f11/transformed/jetified-credentials-1.2.0-rc01/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-java-1.0.0-beta04-10 /Users/krishnarajput/.gradle/caches/transforms-3/cc91323cadad8c9a3b3f9b0909e2994c/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-auth-20.7.0-11 /Users/krishnarajput/.gradle/caches/transforms-3/d11d52c7f16cac6ea37165c3ecab96a9/transformed/jetified-play-services-auth-20.7.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-main-12 /Users/krishnarajput/.pub-cache/hosted/pub.dev/firebase_auth-5.3.4/android/src/main/res
+io.flutter.plugins.firebase.auth.firebase_auth-release-13 /Users/krishnarajput/.pub-cache/hosted/pub.dev/firebase_auth-5.3.4/android/src/release/res
+io.flutter.plugins.firebase.auth.firebase_auth-pngs-14 /Users/krishnarajput/Documents/app development/lp_task/build/firebase_auth/generated/res/pngs/release
+io.flutter.plugins.firebase.auth.firebase_auth-resValues-15 /Users/krishnarajput/Documents/app development/lp_task/build/firebase_auth/generated/res/resValues/release
+io.flutter.plugins.firebase.auth.firebase_auth-rs-16 /Users/krishnarajput/Documents/app development/lp_task/build/firebase_auth/generated/res/rs/release
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-17 /Users/krishnarajput/Documents/app development/lp_task/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-18 /Users/krishnarajput/Documents/app development/lp_task/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.auth.firebase_auth-merged_res-19 /Users/krishnarajput/Documents/app development/lp_task/build/firebase_auth/intermediates/merged_res/release
+io.flutter.plugins.firebase.auth.firebase_auth-packaged_res-20 /Users/krishnarajput/Documents/app development/lp_task/build/firebase_core/intermediates/packaged_res/release
