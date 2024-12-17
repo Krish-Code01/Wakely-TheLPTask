@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lp_task/global/constants/theme.dart';
@@ -94,6 +96,7 @@ class _SettingsPageState extends State<SettingsPage> {
             ElevatedButton.icon(
               onPressed: () async {
                 if (!authProvider.isLoading) {
+                  log("Ran this one");
                   await authProvider.signOut(context);
                 }
                 Navigator.of(context).popUntil((route) => route.isFirst);

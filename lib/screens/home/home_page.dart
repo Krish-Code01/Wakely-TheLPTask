@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:developer';
 
 import 'package:alarm/alarm.dart';
 import 'package:flutter/material.dart';
@@ -36,13 +37,9 @@ class _HomePageState extends State<HomePage> {
     _currentTime = DateTime.now();
     AlarmProvider alarmProvider =
         Provider.of<AlarmProvider>(context, listen: false);
-    subscription ??= Alarm.ringStream.stream.listen(navigateToRingScreen);
-
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      SharedPreferences prefs = await SharedPreferences.getInstance();
-      String? userId = prefs.getString('userId');
+      subscription ??= Alarm.ringStream.stream.listen(navigateToRingScreen);
       _startTimer();
-      alarmProvider.loadAlarms('$userId');
       loadAlarms();
     });
   }

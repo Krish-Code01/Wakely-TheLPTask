@@ -1,9 +1,13 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lp_task/global/constants/theme.dart';
 import 'package:lp_task/providers/auth_provider.dart';
 import 'package:lp_task/screens/home/home_page.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import '../../providers/alarm_provider.dart';
 import '../components/square-tiles.dart';
 
 class AuthPage extends StatefulWidget {
@@ -43,6 +47,15 @@ class _AuthPageState extends State<AuthPage> {
                   onTap: () async {
                     await authProvider.signInWithGoogle(context);
                     if (authProvider.isLogin) {
+                      AlarmProvider alarmProvider =
+                          Provider.of<AlarmProvider>(context, listen: false);
+
+                      SharedPreferences prefs =
+                          await SharedPreferences.getInstance();
+                      String? userId = prefs.getString('userId');
+                      log("Used the user id $userId");
+                      alarmProvider.loadAlarms('$userId');
+
                       Future.delayed(Duration.zero, () {
                         Navigator.pushReplacement(
                           context,

@@ -76,14 +76,17 @@ class AuthProvider with ChangeNotifier {
     _setLoading(true);
     try {
       await _googleSignIn.signOut();
+      log("google sign out done");
       await _auth.signOut();
+      log("Auth sign out done");
 
-      // Clear user data from shared preferences
       SharedPreferences prefs = await SharedPreferences.getInstance();
       await prefs.clear();
+      log("Prefs cleared");
 
       _user = null;
       _isLogin = false;
+      log("_user now cleared");
       notifyListeners();
     } catch (e) {
       print("Error during Sign-Out: $e");
