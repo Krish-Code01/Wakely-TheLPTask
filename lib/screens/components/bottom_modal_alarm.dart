@@ -65,6 +65,7 @@ void showAlarmModalSheet(BuildContext context, AlarmService alarm) {
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: CustomColors.primaryTextColor,
+                          fontSize: 16.sp,
                         ),
                       ),
                       value: "noRepeat",
@@ -89,6 +90,7 @@ void showAlarmModalSheet(BuildContext context, AlarmService alarm) {
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: CustomColors.primaryTextColor,
+                          fontSize: 16.sp,
                         ),
                       ),
                       value: "daily",

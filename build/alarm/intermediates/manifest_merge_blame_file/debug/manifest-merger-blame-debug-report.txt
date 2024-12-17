@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gdelataillade.alarm.alarm" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="19" />
+7-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+9-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:2:3-78
+9-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:2:20-76
+10    <uses-permission android:name="android.permission.WAKE_LOCK" />
+10-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:3:3-65
+10-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:3:20-63
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:4:3-63
+11-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:4:20-61
+12    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+12-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:5:3-78
+12-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:5:20-76
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:6:3-75
+13-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:6:20-72
+14    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+14-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:7:3-83
+14-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:7:20-80
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:8:3-75
+15-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:8:20-72
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:9:3-77
+16-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:9:20-75
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+17-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:10:3-89
+17-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:10:20-87
+18    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+18-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:11:3-71
+18-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:11:20-69
+19    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+19-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:12:3-76
+19-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:12:20-74
+20
+21    <application>
+21-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:13:3-28:17
+22        <receiver
+22-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:14:5-71
+23            android:name="com.gdelataillade.alarm.alarm.AlarmReceiver"
+23-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:14:15-44
+24            android:exported="true" />
+24-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:14:45-68
+25        <receiver
+25-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:15:5-22:16
+26            android:name="com.gdelataillade.alarm.alarm.BootReceiver"
+26-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:16:9-37
+27            android:enabled="true"
+27-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:17:9-31
+28            android:exported="true" >
+28-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:18:9-32
+29            <intent-filter>
+29-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:19:9-21:25
+30                <action android:name="android.intent.action.BOOT_COMPLETED" />
+30-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:20:13-75
+30-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:20:21-72
+31            </intent-filter>
+32        </receiver>
+33
+34        <service
+34-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:23:5-27:15
+35            android:name="com.gdelataillade.alarm.alarm.AlarmService"
+35-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:24:7-35
+36            android:exported="false"
+36-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:25:7-31
+37            android:foregroundServiceType="mediaPlayback" >
+37-->/Users/krishnarajput/.pub-cache/hosted/pub.dev/alarm-4.1.1/android/src/main/AndroidManifest.xml:26:7-52
+38        </service>
+39    </application>
+40
+41</manifest>

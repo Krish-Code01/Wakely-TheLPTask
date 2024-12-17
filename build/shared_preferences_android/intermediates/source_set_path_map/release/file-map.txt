@@ -1,0 +1,14 @@
+io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-window-1.0.0-beta04-0 /Users/krishnarajput/.gradle/caches/transforms-3/0de068733846f1b04c38605e9acbc120/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-core-1.6.0-1 /Users/krishnarajput/.gradle/caches/transforms-3/1861d27e20c3c9a424ed1bc7625c6fd0/transformed/core-1.6.0/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-annotation-experimental-1.1.0-2 /Users/krishnarajput/.gradle/caches/transforms-3/23a9b25dca926dcda76eb263aee75c9f/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-datastore-1.0.0-3 /Users/krishnarajput/.gradle/caches/transforms-3/4a9cb23d10f7eebabb1b21df01081247/transformed/jetified-datastore-1.0.0/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-datastore-preferences-1.0.0-4 /Users/krishnarajput/.gradle/caches/transforms-3/6af0412db261ee2206f705ac5e24a39c/transformed/jetified-datastore-preferences-1.0.0/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-window-java-1.0.0-beta04-5 /Users/krishnarajput/.gradle/caches/transforms-3/cc91323cadad8c9a3b3f9b0909e2994c/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-main-6 /Users/krishnarajput/.pub-cache/hosted/pub.dev/shared_preferences_android-2.3.2/android/src/main/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-release-7 /Users/krishnarajput/.pub-cache/hosted/pub.dev/shared_preferences_android-2.3.2/android/src/release/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-pngs-8 /Users/krishnarajput/Documents/app development/lp_task/build/shared_preferences_android/generated/res/pngs/release
+io.flutter.plugins.sharedpreferences.shared_preferences_android-resValues-9 /Users/krishnarajput/Documents/app development/lp_task/build/shared_preferences_android/generated/res/resValues/release
+io.flutter.plugins.sharedpreferences.shared_preferences_android-rs-10 /Users/krishnarajput/Documents/app development/lp_task/build/shared_preferences_android/generated/res/rs/release
+io.flutter.plugins.sharedpreferences.shared_preferences_android-mergeReleaseResources-11 /Users/krishnarajput/Documents/app development/lp_task/build/shared_preferences_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.sharedpreferences.shared_preferences_android-mergeReleaseResources-12 /Users/krishnarajput/Documents/app development/lp_task/build/shared_preferences_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.sharedpreferences.shared_preferences_android-merged_res-13 /Users/krishnarajput/Documents/app development/lp_task/build/shared_preferences_android/intermediates/merged_res/release
