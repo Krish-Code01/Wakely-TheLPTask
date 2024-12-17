@@ -1,0 +1,51 @@
+com.example.lp_task.app-jetified-core-1.0.0-0 /Users/krishnarajput/.gradle/caches/transforms-3/0044064f8a13395092a53f1b9825828b/transformed/jetified-core-1.0.0/res
+com.example.lp_task.app-jetified-play-services-basement-18.4.0-1 /Users/krishnarajput/.gradle/caches/transforms-3/09cc131aff7822f79296701dfd34e0d0/transformed/jetified-play-services-basement-18.4.0/res
+com.example.lp_task.app-jetified-ads-adservices-1.0.0-beta05-2 /Users/krishnarajput/.gradle/caches/transforms-3/19fa7445711e989e61e22b601b46e273/transformed/jetified-ads-adservices-1.0.0-beta05/res
+com.example.lp_task.app-media-1.1.0-3 /Users/krishnarajput/.gradle/caches/transforms-3/1a0806a8bfd0af5a1094dfb0f6c8b87e/transformed/media-1.1.0/res
+com.example.lp_task.app-browser-1.4.0-4 /Users/krishnarajput/.gradle/caches/transforms-3/1e032226c02db21ea88589a0c5fdae97/transformed/browser-1.4.0/res
+com.example.lp_task.app-jetified-startup-runtime-1.1.1-5 /Users/krishnarajput/.gradle/caches/transforms-3/27b6db8da9f71e2c841942f66e03ab4f/transformed/jetified-startup-runtime-1.1.1/res
+com.example.lp_task.app-jetified-play-services-auth-21.0.0-6 /Users/krishnarajput/.gradle/caches/transforms-3/35eedf72a45c035132f0d7e1b6aa96e9/transformed/jetified-play-services-auth-21.0.0/res
+com.example.lp_task.app-jetified-core-ktx-1.13.1-7 /Users/krishnarajput/.gradle/caches/transforms-3/3c36c62ffc690f23db76b1100feaf6f9/transformed/jetified-core-ktx-1.13.1/res
+com.example.lp_task.app-jetified-core-common-2.0.3-8 /Users/krishnarajput/.gradle/caches/transforms-3/3d45d6a43e5f65b5532722b4de89abaf/transformed/jetified-core-common-2.0.3/res
+com.example.lp_task.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-9 /Users/krishnarajput/.gradle/caches/transforms-3/3e8c1103d4ee856d5a79f3485ff354c1/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/res
+com.example.lp_task.app-jetified-credentials-play-services-auth-1.2.0-rc01-10 /Users/krishnarajput/.gradle/caches/transforms-3/48f806ac9094641902e8011c6c0e52a5/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/res
+com.example.lp_task.app-jetified-activity-1.8.1-11 /Users/krishnarajput/.gradle/caches/transforms-3/52ad850f4f2f9f30ce541681eae64767/transformed/jetified-activity-1.8.1/res
+com.example.lp_task.app-jetified-firebase-common-21.0.0-12 /Users/krishnarajput/.gradle/caches/transforms-3/5965160a991c27a8cb1ed49de962afd4/transformed/jetified-firebase-common-21.0.0/res
+com.example.lp_task.app-jetified-annotation-experimental-1.4.0-13 /Users/krishnarajput/.gradle/caches/transforms-3/5e236af79af3f96d6e8128775fa4ced2/transformed/jetified-annotation-experimental-1.4.0/res
+com.example.lp_task.app-jetified-datastore-1.0.0-14 /Users/krishnarajput/.gradle/caches/transforms-3/6234fa6d264668fb5b431726db026b48/transformed/jetified-datastore-1.0.0/res
+com.example.lp_task.app-jetified-ads-adservices-java-1.0.0-beta05-15 /Users/krishnarajput/.gradle/caches/transforms-3/6bdefeb77e2d87621ceec3ba8ca15c7d/transformed/jetified-ads-adservices-java-1.0.0-beta05/res
+com.example.lp_task.app-jetified-savedstate-1.2.1-16 /Users/krishnarajput/.gradle/caches/transforms-3/7699ab9144916c5adeaf30060341aef0/transformed/jetified-savedstate-1.2.1/res
+com.example.lp_task.app-jetified-play-services-base-18.5.0-17 /Users/krishnarajput/.gradle/caches/transforms-3/7b02a92673476b90b46179f96ff5bce7/transformed/jetified-play-services-base-18.5.0/res
+com.example.lp_task.app-jetified-play-services-measurement-api-22.1.2-18 /Users/krishnarajput/.gradle/caches/transforms-3/7d0c40c2ad06b7d0a88f8ceefc8ab0cf/transformed/jetified-play-services-measurement-api-22.1.2/res
+com.example.lp_task.app-jetified-lifecycle-process-2.7.0-19 /Users/krishnarajput/.gradle/caches/transforms-3/7e5589de916d4230d76926e72284abb4/transformed/jetified-lifecycle-process-2.7.0/res
+com.example.lp_task.app-jetified-window-1.2.0-20 /Users/krishnarajput/.gradle/caches/transforms-3/8049789522debd147e12440958ce39a8/transformed/jetified-window-1.2.0/res
+com.example.lp_task.app-core-runtime-2.2.0-21 /Users/krishnarajput/.gradle/caches/transforms-3/97ffabd08ea149de658a210de2a97b77/transformed/core-runtime-2.2.0/res
+com.example.lp_task.app-lifecycle-runtime-2.7.0-22 /Users/krishnarajput/.gradle/caches/transforms-3/a0f3af23ff5574ec073e57dce2b00493/transformed/lifecycle-runtime-2.7.0/res
+com.example.lp_task.app-core-1.13.1-23 /Users/krishnarajput/.gradle/caches/transforms-3/a296199b948497535d85d4573a85284c/transformed/core-1.13.1/res
+com.example.lp_task.app-jetified-credentials-1.2.0-rc01-24 /Users/krishnarajput/.gradle/caches/transforms-3/a4cc5e9d2b69dccd29d206c2a953c09e/transformed/jetified-credentials-1.2.0-rc01/res
+com.example.lp_task.app-jetified-window-java-1.2.0-25 /Users/krishnarajput/.gradle/caches/transforms-3/a65c185e9faadaf34d09aa580e1b7556/transformed/jetified-window-java-1.2.0/res
+com.example.lp_task.app-lifecycle-viewmodel-2.7.0-26 /Users/krishnarajput/.gradle/caches/transforms-3/b93a8696501f28cb03c047efa50235fd/transformed/lifecycle-viewmodel-2.7.0/res
+com.example.lp_task.app-lifecycle-livedata-core-2.7.0-27 /Users/krishnarajput/.gradle/caches/transforms-3/bccbc281e97afbb8f66fb153b3d4ad4f/transformed/lifecycle-livedata-core-2.7.0/res
+com.example.lp_task.app-jetified-datastore-preferences-1.0.0-28 /Users/krishnarajput/.gradle/caches/transforms-3/c0b5c3de84f0af362b05b1d5d0d3a8bd/transformed/jetified-datastore-preferences-1.0.0/res
+com.example.lp_task.app-jetified-profileinstaller-1.3.1-29 /Users/krishnarajput/.gradle/caches/transforms-3/c5e2d10cd8411fe3a3fe211d9beaac0d/transformed/jetified-profileinstaller-1.3.1/res
+com.example.lp_task.app-fragment-1.7.1-30 /Users/krishnarajput/.gradle/caches/transforms-3/cf87142dd7cb4ca04bbdccdeba2373f7/transformed/fragment-1.7.1/res
+com.example.lp_task.app-jetified-tracing-1.2.0-31 /Users/krishnarajput/.gradle/caches/transforms-3/d6675f4b87d241c2a100eb28bb83f02c/transformed/jetified-tracing-1.2.0/res
+com.example.lp_task.app-debug-32 /Users/krishnarajput/Documents/app development/lp_task/android/app/src/debug/res
+com.example.lp_task.app-main-33 /Users/krishnarajput/Documents/app development/lp_task/android/app/src/main/res
+com.example.lp_task.app-packaged_res-34 /Users/krishnarajput/Documents/app development/lp_task/build/alarm/intermediates/packaged_res/debug
+com.example.lp_task.app-google-services-35 /Users/krishnarajput/Documents/app development/lp_task/build/app/generated/res/google-services/debug
+com.example.lp_task.app-pngs-36 /Users/krishnarajput/Documents/app development/lp_task/build/app/generated/res/pngs/debug
+com.example.lp_task.app-resValues-37 /Users/krishnarajput/Documents/app development/lp_task/build/app/generated/res/resValues/debug
+com.example.lp_task.app-rs-38 /Users/krishnarajput/Documents/app development/lp_task/build/app/generated/res/rs/debug
+com.example.lp_task.app-mergeDebugResources-39 /Users/krishnarajput/Documents/app development/lp_task/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.lp_task.app-mergeDebugResources-40 /Users/krishnarajput/Documents/app development/lp_task/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.lp_task.app-merged_res-41 /Users/krishnarajput/Documents/app development/lp_task/build/app/intermediates/merged_res/debug
+com.example.lp_task.app-packaged_res-42 /Users/krishnarajput/Documents/app development/lp_task/build/cloud_firestore/intermediates/packaged_res/debug
+com.example.lp_task.app-packaged_res-43 /Users/krishnarajput/Documents/app development/lp_task/build/firebase_auth/intermediates/packaged_res/debug
+com.example.lp_task.app-packaged_res-44 /Users/krishnarajput/Documents/app development/lp_task/build/firebase_core/intermediates/packaged_res/debug
+com.example.lp_task.app-packaged_res-45 /Users/krishnarajput/Documents/app development/lp_task/build/flutter_fgbg/intermediates/packaged_res/debug
+com.example.lp_task.app-packaged_res-46 /Users/krishnarajput/Documents/app development/lp_task/build/flutter_local_notifications/intermediates/packaged_res/debug
+com.example.lp_task.app-packaged_res-47 /Users/krishnarajput/Documents/app development/lp_task/build/google_sign_in_android/intermediates/packaged_res/debug
+com.example.lp_task.app-packaged_res-48 /Users/krishnarajput/Documents/app development/lp_task/build/path_provider_android/intermediates/packaged_res/debug
+com.example.lp_task.app-packaged_res-49 /Users/krishnarajput/Documents/app development/lp_task/build/shared_preferences_android/intermediates/packaged_res/debug
+com.example.lp_task.app-packaged_res-50 /Users/krishnarajput/Documents/app development/lp_task/build/sqflite/intermediates/packaged_res/debug
