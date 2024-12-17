@@ -37,17 +37,35 @@ class StartStopAlarm {
 
       await Alarm.set(alarmSettings: newAlarm);
     } else {
-      List<int>? listDays = alarm.customRepeatDays;
-      int todayIndex = (DateTime.now().weekday % 7);
+      DateTime now = DateTime.now();
+      DateTime selectedDateTime = DateTime(
+        now.year,
+        now.month,
+        now.day,
+        alarm.alarmDateTime.hour,
+        alarm.alarmDateTime.minute,
+      );
+
+      int todayIndex = (now.weekday % 7);
+      if (selectedDateTime.isBefore(now)) {
+        todayIndex += 1;
+      }
       int _remainingDays = 0;
       for (int i = 0; i < 7; i++) {
         int checkIndex = (todayIndex + i) % 7;
-        if (listDays[checkIndex] == 1) {
+        if (alarm.customRepeatDays[checkIndex] == 1) {
           _remainingDays = i;
           break;
         }
       }
-
+      if (selectedDateTime.isBefore(now)) {
+        _remainingDays += 1;
+      }
+      selectedDateTime = selectedDateTime.add(
+        Duration(
+          days: _remainingDays,
+        ),
+      );
       final newAlarm = AlarmSettings(
         id: alarmSettings.id,
         dateTime: alarmSettings.dateTime.add(
