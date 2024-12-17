@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.lp_task.app-main-33:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/mipmap-hdpi_launcher_icon.png.flat",
+        "source": "com.example.lp_task.app-main-33:/mipmap-hdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/drawable_app_logo.png.flat",
+        "source": "com.example.lp_task.app-main-33:/drawable/app_logo.png"
+    },
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/mipmap-mdpi_launcher_icon.png.flat",
+        "source": "com.example.lp_task.app-main-33:/mipmap-mdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.lp_task.app-main-33:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/mipmap-xhdpi_launcher_icon.png.flat",
+        "source": "com.example.lp_task.app-main-33:/mipmap-xhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/mipmap-anydpi-v26_launcher_icon.xml.flat",
+        "source": "com.example.lp_task.app-main-33:/mipmap-anydpi-v26/launcher_icon.xml"
+    },
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/mipmap-xxxhdpi_launcher_icon.png.flat",
+        "source": "com.example.lp_task.app-main-33:/mipmap-xxxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/drawable-v21_launch_background.xml.flat",
+        "source": "com.example.lp_task.app-main-33:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.lp_task.app-main-33:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/mipmap-xxhdpi_launcher_icon.png.flat",
+        "source": "com.example.lp_task.app-main-33:/mipmap-xxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.lp_task.app-main-33:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.lp_task.app-main-33:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.lp_task.app-merged_res-41:/raw_alarm_sound.wav.flat",
+        "source": "com.example.lp_task.app-main-33:/raw/alarm_sound.wav"
+    }
+]
